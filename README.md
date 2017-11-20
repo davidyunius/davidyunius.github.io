@@ -14,5 +14,8 @@ position
 cursor
 
 About Me: David Yunius.
+<<<<<<< HEAD
 
 future plans
+=======
+>>>>>>> ef0f8252ec47d661ff50ba61934b94f5d9d2354c
