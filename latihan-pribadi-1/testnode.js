@@ -16,7 +16,7 @@ var equip;
 var pperan;
 var kondisi2 = true;
 
-alert("Hi, This is a simple game that need your input. Enjoy!");
+// alert("Hi, This is a simple game that need your input. Enjoy!");
 
 nama = prompt("Masukkan nama anda: ");
 
