@@ -1,12 +1,15 @@
 function konversiMenit(menit) {
     // you can only write your code here!
     var jam = 0;
-    if(menit>=60){
-        jam = jam + Math.floor(menit/60);
-        return jam + ":" + (menit%60);
-    }else if(menit<60){
-        jam = jam + Math.floor(menit/60);
-        return jam + ":" + (menit%60);
+    if (menit >= 60) {
+        jam = jam + Math.floor(menit / 60);
+        if ((menit % 60) < 10) {
+            return jam + ":" + "0" + (menit % 60)
+        }
+        return jam + ":" + (menit % 60);
+    } else if (menit < 60) {
+        jam = jam + Math.floor(menit / 60);
+        return jam + ":" + (menit % 60);
     }
 }
 

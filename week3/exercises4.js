@@ -9,13 +9,7 @@ function xo(str) {
             o = o + 1;
         }
     }
-    // console.log(x);
-    // console.log(o);
-    if(x == o){
-        return true;
-    }else{
-        return false;
-    }
+    return x === o;
 }
 // TEST CASES
 console.log(xo('xoxoxo')); // true

@@ -2,11 +2,10 @@ function perpangkatanDua(str) {
     // you can only write your code here!
     // a = b pangkat c
     // jika a = 64 dan b = 2 maka berapa nilai c?
-    var a, b, c;
-    a = str;
+    var b, c;
     b = 2;
-    for (var c = 0; c < a; c++) {
-        if (Math.pow(b, c) === a) {
+    for (var c = 0; c < str; c++) {
+        if (b ** c === str) {
             return c;
         }
     }
