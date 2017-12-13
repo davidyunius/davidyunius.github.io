@@ -1,18 +1,9 @@
 # davidyunius.github.io
 
-About This Site: Hasil latihan week 1 hacktiv8
+About This Site: HACKTIV8 Week 1 Result
 
-Used Tags & Syntaxes:
-color
-font-size
-font-family
-background
-font-weight
-text-align
-text-decoration
-position
-cursor
+Used Tags & Syntaxes: color, font-size, font-family, background, font-weight, text-align, text-decoration, position, cursor.
 
 About Me: David Yunius.
 
-future plans
+Future Plans: Graduate from HACKTIV8 and Become Future Fullstack Web Developer.
