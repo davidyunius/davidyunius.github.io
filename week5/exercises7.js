@@ -43,11 +43,11 @@ class Student {
 
 let output = new Student();
 
-// output.addHobby("coding");
-// output.addHobby("running");
-// output.addHobby("training");
+output.addHobby("coding");
+output.addHobby("running");
+output.addHobby("training");
 // console.log(output.getHobbies());
-// output.removeHobby("running");
+output.removeHobby("running");
 // console.log(output.getHobbies());
 output.setName("Michael");
 // console.log(output.getName());
