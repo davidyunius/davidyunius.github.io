@@ -1,6 +1,7 @@
 # davidyunius.github.io
 
-About This Site: HACKTIV8 Week 1 Result
+About This Site:
+This is HACKTIV8 Week 1 Result
 
 Used Tags & Syntaxes: color, font-size, font-family, background, font-weight, text-align, text-decoration, position, cursor.
 
