@@ -1,6 +1,6 @@
 function faktorialRekursif(angka) {
     // you can only write your code here!
-    if (angka == 1) {
+    if (angka === 1) {
         return 1;
     }
     else {

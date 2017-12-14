@@ -5,13 +5,13 @@ function kaliTerusRekursif(angka) {
     if (arr.length === 1) {
         return Number(angka);
     } else {
-        var angkaDepan = Number(arr[0]);
-        arr = arr.slice(1);
-        var hasil = angkaDepan * kaliTerusRekursif(Number(arr));
+        // var angkaDepan = Number(arr[0]);
+        // arr = arr.slice(1);
+        // var hasil = angkaDepan * kaliTerusRekursif(Number(arr));
         // return hasil;
     }
     // console.log(angkaDepan)
-    return kaliTerusRekursif(hasil);
+    return kaliTerusRekursif((angka%10) * kaliTerusRekursif(Math.floor(angka/10)))
 }
 
 // TEST CASES

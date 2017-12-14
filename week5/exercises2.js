@@ -4,11 +4,13 @@ function totalDigitRekursif(angka) {
     // console.log(arr);
     if (arr.length === 1) {
         return Number(angka);
-    } else {
-        var angkaDepan = Number(arr[0]);
-        arr = arr.slice(1);
-        return angkaDepan + totalDigitRekursif(Number(arr));
     }
+    //  else {
+    //     var angkaDepan = Number(arr[0]);
+    //     arr = arr.slice(1);
+    //     return angkaDepan + totalDigitRekursif(Number(arr));
+    // }
+    return (angka % 10) + totalDigitRekursif(Math.floor(angka / 10))
     // console.log(angkaDepan)
 }
 
